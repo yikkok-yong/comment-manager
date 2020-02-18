@@ -18,8 +18,6 @@ export function fetchPost(postID) {
       });
 
     if (res) {
-      console.log(res);
-
       dispatch({
         type: POST.SUCCESS,
         payload: res,
